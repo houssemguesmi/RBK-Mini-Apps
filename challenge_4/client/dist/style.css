@@ -1,0 +1,66 @@
+html {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+table,
+tr,
+td {
+  border: 2px solid white;
+}
+.cases {
+  width: 75px;
+  height: 75px;
+  border-radius: 80px;
+}
+#app {
+  height: 100%;
+  width: 100%;
+}
+#welcoming {
+  margin: auto;
+  position: relative;
+  left: 0%;
+  top: 45%;
+  border-radius: 25px;
+  border: 5px solid black;
+  width: 50%;
+}
+#startGame {
+  margin: auto;
+  position: relative;
+  font-size: 25px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid black;
+  color: white;
+  width: 100%;
+}
+#startGame:hover {
+  background-color: white;
+  color: black;
+}
+#welcomeMessage {
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  marign: auto;
+  text-align: center;
+}
+#game {
+  height: 100vh;
+}
+table {
+  margin: 0;
+  position: relative;
+  width: 525px;
+  left: 35%;
+  top: 28%;
+}

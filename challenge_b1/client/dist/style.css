@@ -1,0 +1,137 @@
+table,
+tr {
+  border: 2px solid black;
+}
+html {
+  background-image: url("./bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+#app,
+#game {
+  width: 100vw;
+  height: 100vh;
+}
+
+table {
+  width: 600px;
+  height: 600px;
+  position: fixed;
+  top: 30%;
+  left: 35%;
+  border: 2px solid white;
+}
+.white {
+  width: 75px;
+  height: 75px;
+  background-color: white;
+  border: 1px solid brown;
+  /* background-image: url(./brown.png);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.black {
+  width: 75px;
+  height: 75px;
+  background-color: black;
+  border: 1px solid brown;
+  /* background-image: url("./white.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+#scoreTurn {
+  width: 350px;
+  height: 350px;
+  border: 2px solid white;
+  border-radius: 15px;
+  float: left;
+  position: fixed;
+  margin: auto;
+  top: 30%;
+}
+#scoreMessage {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+#killMessage {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+#turns {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+#start {
+  font-size: 25px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  position: fixed;
+  margin: auto;
+  width: 350px;
+  top: 18%;
+}
+#start:hover {
+  border: 3px solid black;
+  color: black;
+  background-color: white;
+}
+#reset {
+  font-size: 25px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  position: fixed;
+  margin: auto;
+  width: 350px;
+  top: 21%;
+}
+#reset:hover {
+  border: 3px solid black;
+  color: black;
+  background-color: white;
+}
+#title {
+  width: 350px;
+  height: 175px;
+  border: 2px solid white;
+  border-radius: 15px;
+  float: left;
+  position: fixed;
+  margin: auto;
+  top: 8%;
+  left: 40%;
+}
+#titleMessage {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+#errors {
+  float: right;
+  margin: auto;
+  position: fixed;
+  right: 0%;
+  top: 30%;
+  width: 350px;
+  height: 350px;
+  border: 2px solid white;
+  border-radius: 15px;
+  border-radius: 15px;
+}
+#errorMessage {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}

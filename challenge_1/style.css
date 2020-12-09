@@ -1,0 +1,257 @@
+body,
+html {
+  /* background-color: magenta; */
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("./images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.squares {
+  background-color: transparent;
+  width: 220px;
+  height: 220px;
+}
+#container {
+  position: relative;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 80%;
+  opacity: 0;
+}
+#second {
+  width: 75%;
+}
+#manipulation {
+  position: relative;
+  width: 250px;
+  height: 40%;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 2px solid black;
+  margin: auto;
+  top: -30%;
+}
+#first {
+  width: 13%;
+  height: 100%;
+}
+#other {
+  /* position: relative;
+  margin: auto;
+  top: 70%;
+  right: 10%;
+  width: 250;
+  height: 40%;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 2px solid black; */
+  position: relative;
+  width: 250px;
+  height: 18%;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 2px solid black;
+  margin: auto;
+  top: -30%;
+  left: -10%;
+}
+#third {
+  width: 12%;
+  height: 100%;
+  position: relative;
+  margin: auto;
+  right: 0;
+}
+#page {
+  height: 100vh;
+  width: 100vw;
+}
+#bar {
+  background-color: transparent;
+  width: 100%;
+  height: 80px;
+  border-radius: 20px;
+}
+#tdbar {
+  height: 80px;
+}
+#welcoming {
+  margin: auto;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  opacity: 0;
+}
+#start {
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin: auto;
+  position: relative;
+  top: 11%;
+  left: 26%;
+}
+#reset {
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin: auto;
+  position: relative;
+  top: 12%;
+  left: 29%;
+  /* right: 0%; */
+}
+#resetScore {
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin: auto;
+  position: relative;
+  top: 27%;
+  left: 25%;
+  /* right: 0%; */
+}
+#turn {
+  margin: auto;
+  position: relative;
+  top: 16%;
+  left: 25%;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+#gamesScore {
+  margin: auto;
+  position: relative;
+  top: 18%;
+  left: 30%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  width: 100%;
+}
+#game {
+  width: 680px;
+  height: 680px;
+  border: 2px solid black;
+}
+#game tr,
+#game td {
+  border: 2px solid black;
+}
+#results {
+  margin: auto;
+  position: relative;
+  left: 43%;
+  top: 0%;
+}
+#resultsMessage {
+  position: relative;
+  margin: auto;
+  left: -3%;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+}
+#game td {
+  border-radius: 30px;
+}
+#player1 {
+  margin: auto;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  width: 100%;
+  left: 20%;
+  top: 10%;
+}
+#player2 {
+  margin: auto;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  width: 100%;
+  left: 20%;
+  top: 20%;
+}
+#choice {
+  margin: auto;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  width: 100%;
+  left: 15%;
+  top: 12%;
+}
+#player1Label {
+  margin: auto;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  width: 100%;
+  left: 20%;
+  top: 13%;
+}
+#player2Label {
+  margin: auto;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  width: 100%;
+  left: 20%;
+  top: 10%;
+}
+#player1Choice {
+  margin: auto;
+  position: relative;
+  left: 20%;
+  top: 13%;
+}
+#player2Choice {
+  margin: auto;
+  position: relative;
+  left: 20%;
+  top: 10%;
+}
+#player1Name {
+  margin: auto;
+  position: relative;
+  left: 20%;
+  top: 8%;
+}
+#player2Name {
+  margin: auto;
+  position: relative;
+  left: 20%;
+  top: 10%;
+}
+#reload {
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin: auto;
+  position: relative;
+  top: 30%;
+  left: 15%;
+}     

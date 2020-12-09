@@ -1,0 +1,23 @@
+{
+  "name": "form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "babel client/app.jsx --out-dir public --presets=env,react --ignore=node_modules,compiled --source-maps inline --watch",
+    "start": "nodemon server.js"
+  },
+  "author": "Houssem Guesmi <houssemguesmi14@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.19",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
